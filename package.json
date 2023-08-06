@@ -1,0 +1,13 @@
+{
+  "name": "multiple-discord-bot-express-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "discord.js": "^14.12.1",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.12",
+    "quick.db": "^7.1.3"
+  }
+}
