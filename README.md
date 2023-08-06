@@ -1,10 +1,10 @@
 # Discord Custom Bots using Express API
 
-## Overview:
+## Overview
 
 This repository utilizes Express with various API endpoints to create Discord Bots capable of serving different purposes.
 
-## Features:
+## Features
 1. Supports the management of multiple bots, from a single user to multiple users. (Tested in a simulated scenario, not in a real-world environment)
 2. Implemented a security feature that disables the bot token after three consecutive login failure attempts. The token will remain disabled until corrected by the user through the API endpoint. (Future updates will allow automatic reactivation of the token upon successful user submission.)
 3. Provides support for various JavaScript commands stored in the `"./commands"` folder.
@@ -22,7 +22,7 @@ Endpoint to fetch information about existing Discord bots.
 ### DELETE "/api/v1/bots/delete"
 Endpoint to delete Discord bots.
 
-## TODO:
+## TODO
 
 The following API endpoints will be implemented for Discord integration:
 ### POST "/api/v1/discord"
